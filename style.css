@@ -1,0 +1,412 @@
+html { 
+scroll-behaviour:smooth;
+
+
+}
+
+*{
+
+padding:0;
+margin: 0;
+box-sizing:border-box;
+
+}
+
+body { 
+font-family:'Fira Sans', sans-serif ;
+
+}
+
+.hr-style { 
+border:5px dotted ;
+border-bottom: none;
+margin:0 auto ;
+width: 80px;
+}
+
+/* navbar design starts */
+
+.navbar{
+padding:1% 7% ;
+background-color:rgba(0,0,0,0.8);
+border-radius:5px;
+
+}
+
+
+
+
+.navbar-brand img { 
+width:60px;
+border: none;
+border-radius:50%;
+
+}
+
+nav ul li { 
+display:block ;
+
+}
+
+nav ul li a {
+color:white ;
+padding:10px ;
+margin:10px ;
+text-transform:uppercase;
+
+
+
+}
+
+
+nav ul li a:hover{ 
+color:#6163ff;
+
+}
+
+/* navbar design ends here*/
+
+
+/* banner starts */
+
+header{
+background-image:url(banner.jpeg) ;
+background-attachment:fixed ;
+background-position:center;
+background-repeat:no-repeat ;
+background-size:cover;
+height:150vh ;
+
+
+}
+
+
+.banner-content h1 { 
+font-family:'handlee',cursive;
+font-size:3.5rem;
+color:white;
+padding:10px ;
+margin: 50px;
+text-align:center;
+
+}
+
+.banner-content h5 { 
+font-size:2.2rem;
+color:black ;
+background-color:yellow;
+padding:20px ;
+margin: 20px;
+border:none ;
+border-radius:10px;
+
+
+}
+
+.banner-content p { 
+font-size:1.7rem ;
+color:white ;
+background-color:rgba(60,60,60,0.5) ;
+padding:20px ;
+margin:40px;
+border:none ;
+border-radius:10px;
+
+}
+
+.banner-content .btn{
+background-color:#6163ff ;
+color:white ;
+padding:10px ;
+border:none ;
+outline:0 ;
+border-radius:10px;
+font-size:1.1rem ;
+margin:20px;
+transition :.4s;
+}
+
+
+.banner-content .btn:hover {
+
+transform:scale(1.1);
+background-color:green; 
+}
+
+
+
+
+
+
+/* banner ends */
+
+
+/* card design starts here*/
+
+#food{
+background-color:#fff5f0 ;
+
+
+}
+
+
+.card{
+margin:30px ;
+transition:.4s;
+
+
+
+}
+
+.card:hover{
+transform:scale(1.1);
+
+
+}
+
+.food-title h2 { 
+font-size:2.2rem ;
+font-weight:bold;
+
+}
+
+
+
+
+
+
+/* card design ends here*/
+
+
+/* about section starts */
+
+#about{
+background-color:#f0f8f0;
+padding:2% 7% ;
+
+
+}
+
+
+
+
+.about-title h2 { 
+font-size:2.2rem ;
+font-weight:bold;
+text-align:center ;
+
+}
+
+.aboutus-desc{
+text-align:center ;
+
+
+
+}
+
+
+
+
+
+
+
+/* about section ends  */
+
+
+/* feedback starts here*/
+
+#feedback{
+background-color:Beige ;
+
+
+}
+
+
+.feedback-title h2  { 
+font-size:2.2rem;
+font-wright:bold;
+text-transform:uppercase;
+
+}
+
+.carousel{
+
+background-color:#7b42f5;
+padding:50px 50px;
+border:none;
+color:white ;
+text-align:center ;
+border-radius:20px;
+
+
+
+
+
+}
+
+.carousel-item p { 
+padding-top:20px ;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* feedback ends  here*/
+
+
+
+/* contact section starts here*/
+
+#contact{
+padding: 1% 7%;
+background-color:#0f0a45;
+text-align:center ;
+
+
+}
+
+
+
+.contact-title { 
+text-align:center  ;
+color:white;
+
+}
+
+#contact .map{
+width:100% ;
+padding-bottom: 30px;
+
+
+}
+
+.contact-desc i .fa fa-phone { 
+color:#34bd19;
+
+}
+.contact-desc p,address,h3 { 
+color:white ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact section ends here*/
+
+
+
+/* email starts here*/
+#email{
+background-color:#6163ff ;
+color:white ;
+padding:50px 50px ;
+
+
+}
+
+#email h1{
+text-transform:capitalize ;
+
+
+
+}
+
+.text1 input { 
+width:300px ;
+height:30px;
+border:none  ;
+border-radius:5px;
+padding:20px;
+margin-bottom:10px ;
+
+
+
+}
+
+.text1 .btn{
+color:white ;
+padding:10px ;
+border:none ;
+outline:0 ;
+border-radius:10px;
+font-size:1.1rem ;
+margin:20px;
+transition :.4s;
+
+
+}
+
+.text1 .btn:hover{
+background-color:yellow ;
+color:black ;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* email ends  here*/
+
+
+/* footer starts here*/
+
+footer{
+background-color:black;
+color:white ;
+padding:3% 7%  ;
+
+
+}
+
+
+.footer-desc p { 
+text-align:center ;
+
+
+}
+.footer-desc{
+margin-bottom:20px ;
+
+}
+
+
+.footer-menu a { 
+text-align:center;
+color:white;
+padding:10px ;
+
+
+
+
+}
+
+
+
+
+
+/* footer ends here*/
+
+
